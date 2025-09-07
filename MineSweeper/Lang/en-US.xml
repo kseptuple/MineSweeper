@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language Name="English">
+  <FormMain Text="Minesweeper">
+    <ToolStripMenuItemGame>&amp;Game</ToolStripMenuItemGame>
+    <ToolStripMenuItemStart>&amp;New Game</ToolStripMenuItemStart>
+    <ToolStripMenuItemRestart>&amp;Restart</ToolStripMenuItemRestart>
+    <ToolStripMenuItemBeginner>&amp;Beginner</ToolStripMenuItemBeginner>
+    <ToolStripMenuItemIntermediate>&amp;Intermediate</ToolStripMenuItemIntermediate>
+    <ToolStripMenuItemExpert>&amp;Expert</ToolStripMenuItemExpert>
+    <ToolStripMenuItemCustomize>&amp;Customize...</ToolStripMenuItemCustomize>
+    <ToolStripMenuItemBestTimes>Best&amp; Times...</ToolStripMenuItemBestTimes>
+    <ToolStripMenuItemExit>E&amp;xit</ToolStripMenuItemExit>
+    <ToolStripMenuItemOption>&amp;Option</ToolStripMenuItemOption>
+    <ToolStripMenuItemConfig>&amp;Config</ToolStripMenuItemConfig>
+    <ToolStripMenuItemLanguage>&amp;Language</ToolStripMenuItemLanguage>
+  </FormMain>
+  <FormConfig Text="Config">
+    <tabPageGameConfig>Gmae Config</tabPageGameConfig>
+    <groupBoxFirstClick>On First Click</groupBoxFirstClick>
+    <radioNoProtection>May hit a mine on the first click.</radioNoProtection>
+    <radioProtection>May never hit a mine on the first click. (Default)</radioProtection>
+    <radioOpen>Always reveal an open area on the first click.</radioOpen>
+    <checkAllowFlag>Allow setting flags</checkAllowFlag>
+    <checkAllowMark>Allow marks</checkAllowMark>
+    <checkTimeStartFromZero>Time start from 0 instead of 1</checkTimeStartFromZero>
+    <check4DigitsTimeAndMines>Show 4-digit mine number and time</check4DigitsTimeAndMines>
+    <checkAllowRestartPlayHighScore>Allow record best times for restarted games</checkAllowRestartPlayHighScore>
+    <tabPageProfile>User Profile</tabPageProfile>
+    <tabPageCheat>Cheat</tabPageCheat>
+    <checkShowMine>Show Mine</checkShowMine>
+    <buttonOK>OK</buttonOK>
+    <buttonCancel>Cancel</buttonCancel>
+  </FormConfig>
+  <FormBestTimes Text="Best Times">
+    <labelBeginner>Beginner:</labelBeginner>
+    <labelIntermediate>Intermediate:</labelIntermediate>
+    <labelExpert>Expert:</labelExpert>
+    <buttonResetScore>Reset Score</buttonResetScore>
+    <buttonOK>OK</buttonOK>
+  </FormBestTimes>
+  <FormNewRecord Text="New Record">
+    <buttonOK>OK</buttonOK>
+  </FormNewRecord>
+  <FormCustom Text="Customize">
+    <labelHeight>Height:</labelHeight>
+    <labelWidth>Width:</labelWidth>
+    <labelMines>Mines:</labelMines>
+    <buttonOK>OK</buttonOK>
+    <buttonCancel>Cancel</buttonCancel>
+  </FormCustom>
+  <Text>
+    <Second>s</Second>
+    <Anonymous>Anonymous</Anonymous>
+    <Beginner>Beginner</Beginner>
+    <Intermediate>Intermediate</Intermediate>
+    <Expert>Expert</Expert>
+    <Customize>Customize</Customize>
+    <NewRecord>You've got a new record for the {0} level, please enter your name:</NewRecord>
+  </Text>
+</Language>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language Name="简体中文">
+  <FormMain Text="扫雷">
+    <ToolStripMenuItemGame>游戏(&amp;G)</ToolStripMenuItemGame>
+    <ToolStripMenuItemStart>新游戏(&amp;N)</ToolStripMenuItemStart>
+    <ToolStripMenuItemRestart>重玩(&amp;R)</ToolStripMenuItemRestart>
+    <ToolStripMenuItemBeginner>初级(&amp;B)</ToolStripMenuItemBeginner>
+    <ToolStripMenuItemIntermediate>中级(&amp;I)</ToolStripMenuItemIntermediate>
+    <ToolStripMenuItemExpert>高级(&amp;E)</ToolStripMenuItemExpert>
+    <ToolStripMenuItemCustomize>自定义(&amp;C)...</ToolStripMenuItemCustomize>
+    <ToolStripMenuItemBestTimes>最佳时间(&amp;T)...</ToolStripMenuItemBestTimes>
+    <ToolStripMenuItemExit>退出(&amp;X)</ToolStripMenuItemExit>
+    <ToolStripMenuItemOption>选项(&amp;O)</ToolStripMenuItemOption>
+    <ToolStripMenuItemConfig>配置(&amp;C)</ToolStripMenuItemConfig>
+    <ToolStripMenuItemLanguage>语言(&amp;L)</ToolStripMenuItemLanguage>
+  </FormMain>
+  <FormConfig Text="配置">
+    <tabPageGameConfig>游戏配置</tabPageGameConfig>
+    <groupBoxFirstClick>第一次点击</groupBoxFirstClick>
+    <radioNoProtection>第一次点击可能遇到雷。</radioNoProtection>
+    <radioProtection>第一次点击不会遇到雷。（默认）</radioProtection>
+    <radioOpen>第一次点击总是打开一片。</radioOpen>
+    <checkAllowFlag>允许设置旗帜</checkAllowFlag>
+    <checkAllowMark>允许标记</checkAllowMark>
+    <checkTimeStartFromZero>计时从0而非1开始</checkTimeStartFromZero>
+    <check4DigitsTimeAndMines>显示4位数的雷数和计时</check4DigitsTimeAndMines>
+    <checkAllowRestartPlayHighScore>重玩游戏时允许记录最佳时间</checkAllowRestartPlayHighScore>
+    <tabPageProfile>用户档案</tabPageProfile>
+    <tabPageCheat>作弊</tabPageCheat>
+    <checkShowMine>显示地雷</checkShowMine>
+    <buttonOK>确定</buttonOK>
+    <buttonCancel>取消</buttonCancel>
+  </FormConfig>
+  <FormBestTimes Text="最佳时间">
+    <labelBeginner>初级：</labelBeginner>
+    <labelIntermediate>中级：</labelIntermediate>
+    <labelExpert>高级：</labelExpert>
+    <buttonResetScore>重新计分</buttonResetScore>
+    <buttonOK>确定</buttonOK>
+  </FormBestTimes>
+  <FormNewRecord Text="新记录">
+    <buttonOK>确定</buttonOK>
+  </FormNewRecord>
+  <FormCustom Text="自定义">
+    <labelHeight>高度：</labelHeight>
+    <labelWidth>宽度：</labelWidth>
+    <labelMines>雷数：</labelMines>
+    <buttonOK>确定</buttonOK>
+    <buttonCancel>取消</buttonCancel>
+  </FormCustom>
+  <Text>
+    <Second>秒</Second>
+    <Anonymous>匿名</Anonymous>
+    <Beginner>初级</Beginner>
+    <Intermediate>中级</Intermediate>
+    <Expert>高级</Expert>
+    <Customize>自定义</Customize>
+    <NewRecord>您已打破{0}记录，请输入姓名：</NewRecord>
+  </Text>
+</Language>
